@@ -1,0 +1,34 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+# origin is : /node_modules. Now delete '/'
+node_modules
+
+# testing
+/coverage
+
+# production
+# will change to build or build*(NOT /build)
+build/
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+#morgan log file
+apiserver*.log*
+
+#NOT upload .env, otherwise it will cause security problem
+.env
+
+#visual studio code files
+/.vscode
+
+#apk files : for debug
+image-words-app.apk
