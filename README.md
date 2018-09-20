@@ -105,3 +105,16 @@ nodemon ./bin/www
 ```
 
 
+
+Product link:   
+[看图说说 iOS](https://itunes.apple.com/cn/app/%E7%9C%8B%E5%9B%BE%E8%AF%B4%E8%AF%B4/id1347551500?mt=8)   
+[看图说说 Android](https://play.google.com/store/apps/details?id=com.kantushuoshuo)   
+
+
+
+License:   
+MIT with restriction：   
+Re-publish the same or similar product is forbidden.   
+
+(License:不能再次发布相同或相似产品，产品链接见上。其余遵守MIT。)    
+
