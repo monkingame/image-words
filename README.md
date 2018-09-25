@@ -56,6 +56,7 @@ sunshouhua@gmail.com
 QQ Group(QQ群):   
 884507465
 
-Twitter:   
-https://twitter.com/wazierji
+[Twitter wazierji](https://twitter.com/wazierji)
+
+[Facebook 孙守华](https://www.facebook.com/people/%E5%AD%99%E5%AE%88%E5%8D%8E/100027449914483)
 
