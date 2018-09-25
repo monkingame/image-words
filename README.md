@@ -31,16 +31,6 @@ MIT with restriction: Re-publish same or similar product is forbidden.
 (不能再次发布相同或相似产品，产品链接见上。其余遵守MIT。)    
 
 
-
-## Contact:   
-
-QQ Group(QQ群):   
-884507465
-
-EMail:
-sunshouhua@gmail.com
-
-
 ## Job Hunting
 - Management Experience
   - create developer team from zero
@@ -56,3 +46,16 @@ sunshouhua@gmail.com
   - 超过50人的开发团队管理
 - 技术经验
   - 全栈
+  
+
+## Contact:   
+
+EMail:   
+sunshouhua@gmail.com
+
+QQ Group(QQ群):   
+884507465
+
+Twitter:   
+https://twitter.com/wazierji
+
