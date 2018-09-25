@@ -40,3 +40,19 @@ QQ Group(QQ群):
 EMail:
 sunshouhua@gmail.com
 
+
+## Job Hunting
+- Management Experience
+  - create developer team from zero
+  - manage more than 50 persons developer team
+- Technical Experience
+  - fullstack
+- Slogan
+  - change everything
+
+## 求职
+- 管理经验
+  - 从零创建开发团队
+  - 超过50人的开发团队管理
+- 技术经验
+  - 全栈
