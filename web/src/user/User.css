@@ -1,0 +1,14 @@
+.login {
+  text-align: center;
+}
+
+.login-form-button {
+  width: 100%
+}
+
+.change-password {
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightblue;
+  background-color: #efefef;
+}

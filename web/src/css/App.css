@@ -1,0 +1,59 @@
+.component-app {
+  text-align: center;
+  min-width: 800px;
+  /* background: #fff; */
+}
+
+.header-logo {
+  color: #ff0;
+}
+
+.main-content-style {
+  /* min-height: 1600px; */
+  background: #fff;
+  margin-top: 64px;
+}
+
+.empty-left,
+.empty-right {
+  background: #ececec;
+  height: auto;
+}
+
+.empty-bkgcolor {
+  background: #ececec;
+}
+
+/* .layout {
+  text-align: center;
+} */
+
+.menu {
+  line-height: 64px;
+  /* font-size: 125%; */
+}
+
+.fixed-position {
+  position: fixed;
+  width: 66.67%;
+  z-index: 1;
+}
+
+.header-vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-header-other-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,42 @@
+{
+  "name": "imagewords-api",
+  "version": "0.0.1",
+  "private": true,
+  "description": "image words api server",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@alicloud/sms-sdk": "^1.1.2",
+    "ali-oss": "^6.0.1",
+    "apollo-engine": "^1.1.2",
+    "apollo-server-express": "^2.0.0",
+    "aws-sdk": "^2.285.1",
+    "body-parser": "~1.18.3",
+    "co": "^4.6.0",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "crypto-js": "^3.1.9-1",
+    "debug": "~3.1.0",
+    "dotenv": "^6.0.0",
+    "express": "~4.16.3",
+    "express-session": "^1.15.6",
+    "graphql": "^0.13.2",
+    "graphql-iso-date": "^3.5.0",
+    "jade": "~1.11.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.2.6",
+    "morgan": "~1.9.0",
+    "n-readlines": "^1.0.0",
+    "object-inspect": "^1.6.0",
+    "path": "^0.12.7",
+    "serve-favicon": "~2.5.0",
+    "winston": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.aliyun.com/sunshouhua/imagewords-api.git"
+  },
+  "author": "sunshouhua"
+}

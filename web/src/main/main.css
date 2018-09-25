@@ -1,0 +1,44 @@
+.toolbar {
+  background-color: #eee;
+  /* TODO：为什么这里的height不设置反而没问题？ */
+  /* height: 10px; */
+  width: 100%;
+}
+
+.image-words-wrap {
+  margin: 10px 0 10px 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.list-bkg {
+  background-color: #ececec;
+}
+
+/* .ul-non-border {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+} */
+
+.report-wrap {
+  width: 100%;
+  height: 500px;
+  /* line-height: 500px; */
+  text-align: center;
+  position: relative;
+}
+
+.block-imagewords-item {
+  width: 100%;
+  /* height: 500px; */
+  /* max-height: 500px; */
+  text-align: center;
+  /* overflow: auto; */
+}
+
+.list-imagewords-panel {
+  /* width: 100%; */
+  width: 1000px;
+  height: 1500px;
+}

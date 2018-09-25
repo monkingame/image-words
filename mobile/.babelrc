@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "react-native"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        [
+          "import",
+          {
+            "libraryName": "antd-mobile"
+          }
+        ]
+      ]
+    }
+  }
+}

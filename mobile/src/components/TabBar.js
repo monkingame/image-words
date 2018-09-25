@@ -1,0 +1,113 @@
+'use strict';
+
+import React, {
+  Component
+} from 'react';
+
+import {
+  StyleSheet,
+  View,
+  // Text,
+  TouchableOpacity,
+  Keyboard,
+  Platform,
+} from 'react-native';
+
+// type State = {
+//   keyboardUp: boolean,
+// }
+
+// TODO: 从 react-native-tab-navigator 直接拉取的代码
+// https://github.com/happypancake/react-native-tab-navigator
+
+export const TAB_BAR_HEIGHT = 50;
+
+class Tabs extends Component {
+  // state: State = {};
+  state = {};
+
+  onSelect(el) {
+    if (el.props.onSelect) {
+      el.props.onSelect(el);
+    } else if (this.props.onSelect) {
+      this.props.onSelect(el);
+    }
+  }
+
+  componentWillMount() {
+    if (Platform.OS === 'android') {
+      this.keyboardDidShowListener = Keyboard.addListener('keyboardDidShow', this.keyboardWillShow);
+      this.keyboardDidHideListener = Keyboard.addListener('keyboardDidHide', this.keyboardWillHide);
+    }
+  }
+
+  componentWillUnmount() {
+    this.keyboardDidShowListener.remove();
+    this.keyboardDidHideListener.remove();
+  }
+
+  keyboardWillShow = (e) => {
+    this.setState({ keyboardUp: true });
+  };
+
+  keyboardWillHide = (e) => {
+    this.setState({ keyboardUp: false });
+  };
+
+  render() {
+    const self = this;
+    let selected = this.props.selected
+    if (!selected) {
+      React.Children.forEach(this.props.children.filter(c => c), el => {
+        if (!selected || el.props.initial) {
+          selected = el.props.name || el.key;
+        }
+      });
+    }
+    return (
+      <View style={[styles.tabbarView, this.props.style, this.state.keyboardUp && styles.hidden]}>
+        {React.Children.map(this.props.children.filter(c => c), (el) =>
+          <TouchableOpacity key={el.props.name + "touch"}
+            testID={el.props.testID}
+            style={[styles.iconView, this.props.iconStyle, (el.props.name || el.key) == selected ? this.props.selectedIconStyle || el.props.selectedIconStyle || {} : {}]}
+            onPress={() => !self.props.locked && self.onSelect(el)}
+            onLongPress={() => self.onSelect(el)}
+            activeOpacity={el.props.pressOpacity}>
+            {selected == (el.props.name || el.key) ? React.cloneElement(el, { selected: true, style: [el.props.style, this.props.selectedStyle, el.props.selectedStyle] }) : el}
+          </TouchableOpacity>
+        )}
+      </View>
+    );
+  }
+}
+
+
+var styles = StyleSheet.create({
+  tabbarView: {
+    position: 'absolute',
+    bottom: 0,
+    right: 0,
+    left: 0,
+    height: TAB_BAR_HEIGHT,
+    opacity: 1,
+    backgroundColor: 'transparent',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  iconView: {
+    flex: 1,
+    height: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  hidden: {
+    height: 0,
+  },
+});
+
+// module.exports = Tabs;
+// module.exports.TAB_BAR_HEIGHT = 50;
+
+export default Tabs;
+

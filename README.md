@@ -2,13 +2,13 @@
 show the image with some words, and you'll find new meaning.
 
 
-For example
+## For example
 
-normal image   
+- normal image   
 <img src="https://image.ibb.co/g9OSez/image.jpg" width="300" height="180" >   
 
 
-with words: '考砸了' (bombed the test)   
+- with words: '考砸了' (bombed the test)   
 <img src="https://image.ibb.co/gpBSUz/image.jpg" width="300" height="240" >   
 
 
@@ -26,95 +26,28 @@ with words: '考砸了' (bombed the test)
 - [Cygwin](https://www.cygwin.com/)
 
 
-### packages
-```
-yarn global add webpack
-yarn global add express-generator
-yarn global add nodemon
-```
 
-
-## add packages project need
-```
-yarn add express
-yarn add redux
-yarn add redux-logger
-yarn add react
-yarn add react-dom
-yarn add react-redux
-yarn add react-router
-yarn add react-bootstrap
-yarn add react-router
-yarn add mongoose
-yarn add axios
-yarn add redux-thunk
-yarn add http-proxy
-yarn add connect-mongo
-yarn add express-session
-yarn add nodemon --dev
-yarn install
-  (avoid packages not found error)
-```
-
-
-### redux-logger
-- redux-logger@3.0 changed
-```
-[redux-logger v3] BREAKING CHANGE
-[redux-logger v3] Since 3.0.0 redux-logger exports by default logger with default settings.
-[redux-logger v3] Change
-[redux-logger v3] import createLogger from 'redux-logger'
-[redux-logger v3] to
-[redux-logger v3] import { createLogger } from 'redux-logger'
-```
-
-## Express cli
-```
-express (this command will init current dir and generate bootstrap files)
-```
-
-## DB
-- mongodb
-```
-mongod --dbpath D:\prj\mongodb-data
-```
-
-## API server
-script start doesn't work correctly under windows since '&' character is for linux shell.
-<br>use '|' for windows.
-```
-"scripts": {
-  "start": "node ./bin/www | node apiServer.js"
-},
-```
-
-## react-router v4
-```
-yarn remove react-router
-yarn add react-router-dom@4.1.1
-```
-
-## set env before start server/api server
-```
-setEnv.cmd
-```
-
-## start nodemon
-```
-nodemon ./bin/www
-```
-
-
-
-Product link:   
+## Product link:   
 [看图说说 iOS](https://itunes.apple.com/cn/app/%E7%9C%8B%E5%9B%BE%E8%AF%B4%E8%AF%B4/id1347551500?mt=8)   
 [看图说说 Android](https://play.google.com/store/apps/details?id=com.kantushuoshuo)   
+[看图说说 Android direct APK](https://kantushuoshuo.com/image-words-app.apk)   
 
 
 
-License:   
+## License:   
 MIT with restriction：   
-Re-publish the same or similar product is forbidden.   
+Re-publish same or similar product is forbidden.   
 
-(License:不能再次发布相同或相似产品，产品链接见上。其余遵守MIT。)    
+(License:   
+不能再次发布相同或相似产品，产品链接见上。其余遵守MIT。)    
+
+
+
+## Contact:   
+
+QQ Group(QQ群):   
+884507465
+
+EMail:
+sunshouhua@gmail.com
 

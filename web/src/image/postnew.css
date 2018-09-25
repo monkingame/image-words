@@ -1,0 +1,55 @@
+.postnew-image-container {
+  width: auto;
+  height: 300px;
+}
+
+.postnew-image-size {
+  width: auto;
+  height: auto;
+  background: lightblue;
+  margin: 10px;
+}
+
+.img-wrap {
+  width: auto;
+  height: 500px;
+  background: #d4d0c8;
+  line-height: 500px;
+  text-align: center;
+}
+
+.img-self {
+  max-width: 640px;
+  max-height: 480px;
+  vertical-align: middle;
+}
+
+
+
+.postnew-image {
+  background-color: #ffff00;
+  width: auto;
+  max-width: 400px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+
+.upload-btn-wrapper input[type=file] {
+  /* font-size: 100px; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+

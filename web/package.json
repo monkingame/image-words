@@ -1,0 +1,41 @@
+{
+  "name": "imagewords-main",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ali-oss": "^6.0.1",
+    "antd": "^3.7.3",
+    "apollo-boost": "^0.1.12",
+    "axios": "^0.18.0",
+    "co": "^4.6.0",
+    "crypto-js": "^3.1.9-1",
+    "dom-to-image": "^2.6.0",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "lodash": "^4.17.10",
+    "md5": "^2.2.1",
+    "mongoose": "^5.2.6",
+    "path": "^0.12.7",
+    "qrcode.react": "^0.8.0",
+    "react": "^16.4.2",
+    "react-apollo": "^2.1.9",
+    "react-art": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-infinite-scroller": "^1.2.0",
+    "react-native-web": "^0.8.9",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.4",
+    "react-virtualized": "^9.20.1",
+    "recyclerlistview": "^1.3.4",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "react",
+    "react-native"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "no-unused-vars": 1,
+    "react/prop-types": 0,
+    "react/no-string-refs": 1,
+    "react/no-deprecated": 0
+  }
+}
