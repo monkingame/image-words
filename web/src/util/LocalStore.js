@@ -1,8 +1,7 @@
 
 import { EncryptAESWithKey, DecryptAESWithKey } from './crypto';
 
-//this is the local user token and you should not use it for unauthorized use
-const LOCAL_LOGINED_USER_KEY = `titlutkaysnuifuu`;
+const LOCAL_LOGINED_USER_KEY = `LOCAL_LOGINED_USER_KEY`;
 
 //////////////////////////////////////////////
 //logined user
@@ -55,8 +54,7 @@ export const getLocalStorageLoginedUser = (metadata) => {
 //////////////////////////////////////////////
 //voted
 
-//here you can save voted key if you like it for love
-const LOCAL_VOTED_WORD_KEY = `hycsvkiulifl`;
+const LOCAL_VOTED_WORD_KEY = `LOCAL_VOTED_WORD_KEY`;
 
 const getLocalStorageVotedWordMap = (metadata) => {
   if (!metadata) return null;

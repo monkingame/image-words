@@ -3,10 +3,16 @@
 ## start web client manual
 
 - install&setup www server   
-likes nginx etc.
+likes nginx etc.   
+(if only debug in localhost, skip this step.)   
 
 - enable https   
 apple ATS needed
+(if only debug in localhost, skip this step.)   
+
+- change config file   
+  open file .env.development/.env.production,   
+  change your host setting.
 
 - cd web work dir   
   run the scripts to build web client   
