@@ -20,9 +20,9 @@ show the image with some words, and you'll find new meaning.
 
 
 ## Product link:   
-[看图说说 image-words iOS](https://itunes.apple.com/cn/app/%E7%9C%8B%E5%9B%BE%E8%AF%B4%E8%AF%B4/id1347551500?mt=8)   
-[看图说说 image-words Android](https://play.google.com/store/apps/details?id=com.kantushuoshuo)   
-[看图说说 image-words Android direct APK](https://kantushuoshuo.com/image-words-app.apk)   
+[image-words iOS](https://itunes.apple.com/cn/app/%E7%9C%8B%E5%9B%BE%E8%AF%B4%E8%AF%B4/id1347551500?mt=8)   
+[image-words Android](https://play.google.com/store/apps/details?id=com.kantushuoshuo)   
+[image-words Android APK](https://kantushuoshuo.com/image-words-app.apk)   
 
 
 
