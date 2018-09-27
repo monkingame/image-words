@@ -24,6 +24,8 @@ show the image with some words, and you'll find new meaning.
 [image-words Android](https://play.google.com/store/apps/details?id=com.kantushuoshuo)   
 [image-words Android APK](https://kantushuoshuo.com/image-words-app.apk)   
 
+[Web client(not finished)](https://kantushuoshuo.com/)
+
 
 
 ## License:   
