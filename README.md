@@ -55,8 +55,6 @@ MIT with restriction: Re-publish same or similar product is forbidden.
 EMail:   
 sunshouhua@gmail.com
 
-QQ Group(QQ群):   
-884507465
 
 [Twitter wazierji](https://twitter.com/wazierji)
 
