@@ -10,7 +10,7 @@
     "@alicloud/sms-sdk": "^1.1.2",
     "ali-oss": "^6.0.1",
     "apollo-engine": "^1.1.2",
-    "apollo-server-express": "^2.0.0",
+    "apollo-server-express": "^2.14.2",
     "aws-sdk": "^2.285.1",
     "body-parser": "~1.18.3",
     "co": "^4.6.0",
