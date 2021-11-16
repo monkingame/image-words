@@ -11,7 +11,7 @@
     "ali-oss": "^6.0.1",
     "apollo-engine": "^1.1.2",
     "apollo-server-express": "^2.0.0",
-    "aws-sdk": "^2.285.1",
+    "aws-sdk": "^2.814.0",
     "body-parser": "~1.18.3",
     "co": "^4.6.0",
     "connect-mongo": "^2.0.1",

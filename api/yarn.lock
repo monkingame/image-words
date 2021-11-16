@@ -592,18 +592,18 @@ async@2.6.1, async@^2.6.0:
   dependencies:
     lodash "^4.17.10"
 
-aws-sdk@^2.285.1:
-  version "2.285.1"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.285.1.tgz#548dc7ed09d597b27659289155e1c3897cc59ece"
+aws-sdk@^2.814.0:
+  version "2.814.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.814.0.tgz#7a1c36006e0b5826f14bd2511b1d229ef6814bb0"
   dependencies:
-    buffer "4.9.1"
+    buffer "4.9.2"
     events "1.1.1"
-    ieee754 "1.1.8"
+    ieee754 "1.1.13"
     jmespath "0.15.0"
     querystring "0.2.0"
     sax "1.2.1"
     url "0.10.3"
-    uuid "3.1.0"
+    uuid "3.3.2"
     xml2js "0.4.19"
 
 babel-code-frame@^6.22.0:
@@ -704,9 +704,9 @@ buffer-shims@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/buffer-shims/-/buffer-shims-1.0.0.tgz#9978ce317388c649ad8793028c3477ef044a8b51"
 
-buffer@4.9.1:
-  version "4.9.1"
-  resolved "https://registry.yarnpkg.com/buffer/-/buffer-4.9.1.tgz#6d1bb601b07a4efced97094132093027c95bc298"
+buffer@4.9.2:
+  version "4.9.2"
+  resolved "https://registry.yarnpkg.com/buffer/-/buffer-4.9.2.tgz#230ead344002988644841ab0244af8c44bbe3ef8"
   dependencies:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
@@ -1593,9 +1593,9 @@ iconv-lite@0.4.23, iconv-lite@^0.4.17:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
-ieee754@1.1.8, ieee754@^1.1.4:
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
+ieee754@1.1.13, ieee754@^1.1.4:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
 
 ignore@^3.3.3:
   version "3.3.10"
@@ -2922,9 +2922,9 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
 
-uuid@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
+uuid@3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
 vary@^1, vary@~1.1.2:
   version "1.1.2"
